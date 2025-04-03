@@ -339,3 +339,16 @@ function recalcWebinars() {
     $('.webinars-form-summ-count').html(curCount);
     $('.webinars-form-summ-cost').html(curCost);
 }
+
+$(document).ready(function() {
+
+    $('.add-edu-card-descr-more a').click(function(e) {
+        $('.add-edu-card-descr').toggleClass('open');
+        e.preventDefault();
+    });
+
+    $('.add-edu-sections-group-header').click(function() {
+        $(this).parent().toggleClass('open');
+    });
+
+});

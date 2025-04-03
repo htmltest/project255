@@ -1086,3 +1086,226 @@ footer {background:#003558}
 }
 
 .news-img{float:left; margin-right:5px; margin-bottom:5px}
+
+.add-edu h2 {font:500 24px/31px GothamPro, sans-serif; text-transform:none; color:#000000; margin:80px 0 20px 0}
+.add-edu p {margin:15px 0}
+.add-edu ul {margin:30px 0; padding:0; list-style:none}
+.add-edu li > ul {margin:10px 0}
+.add-edu ul > li {margin:15px 0 0 0; padding:0 0 0 34px}
+.add-edu li > ul > li {margin:10px 0 0 0}
+.add-edu ul > li::before {content:"—"; width:auto; height:auto; background:none; border-radius:0; top:0; left:0; color:#8C8C91; border:none; font-weight:300}
+.add-edu ol {margin:0; padding:0; counter-reset:pointnew}
+.add-edu ol > li {margin:15px 0 0 0; padding:0 0 0 40px}
+.add-edu ol > li::before {content:counter(pointnew)'.'; counter-increment:pointnew 1; font-weight:300; color:#8C8C91}
+.add-edu hr {margin:40px 0; border:none; height:1px; background:#EFEFEF}
+.add-edu hr+h2 {margin-top:40px}
+
+.add-edu-all {margin:40px 0 0 0}
+.add-edu-all-header {display:flex; align-items:center; justify-content:space-between}
+.add-edu .add-edu-all-header h2 {margin:0}
+.add-edu-all-header-btn a {display:flex; align-items:center; justify-content:center; padding:0 33px}
+.add-edu-all-header-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+.add-edu-all-list {margin:40px 0 0 0; border-top:1px solid #EFEFEF}
+.add-edu-all-item {display:flex; border-bottom:1px solid #EFEFEF; padding:20px 15px}
+.add-edu-all-item-number {min-width:40px; max-width:40px; margin:2px 0 0 0}
+.add-edu-all-item-title {flex-grow:1; font-weight:normal; font-size:18px; line-height:27px; color:#002B5D}
+.add-edu-all-item-title a {text-decoration:none; color:#002B5D}
+.add-edu-all-item-title a:hover {color:#8A1F1B}
+.add-edu-all-item-time {min-width:70px; max-width:70px; text-align:center; margin:2px 0 0 0}
+.add-edu-all-item-price {min-width:150px; max-width:150px; text-align:right; margin:2px 0 0 0}
+.add-edu-all-welcome {margin:40px 0 0 0; text-align:center; background:#E9EFF1; padding:20px}
+.add-edu-all-welcome-title {font-weight:500; font-size:20px; line-height:30px}
+.add-edu-all-welcome-contacts {margin:40px -10px 0 -10px; display:flex}
+.add-edu-all-welcome-contacts-item {min-width:33.33%; max-width:33.33%; padding:0 10px; border-left:1px solid #C9C9C9}
+.add-edu-all-welcome-contacts-item:first-child {border-left:none}
+.add-edu-all-welcome-contacts-item-value {margin:10px 0 0 0; font-weight:500}
+.add-edu-all-welcome-contacts-item-value a {color:#000000; text-decoration:none}
+.add-edu-all-welcome-contacts-item-value a:hover {color:#8A1F1B}
+.add-edu-all-welcome-btn {display:flex; justify-content:center; margin:40px 0 0 0}
+.add-edu-all-welcome-btn a {display:flex; align-items:center; justify-content:center; padding:0 38px; width:auto}
+.add-edu-all-welcome-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+
+@media screen and (max-width:1169px) {
+    .add-edu-all-header {display:block}
+    .add-edu-all-header-btn {margin:20px 0 0 0}
+    .add-edu-all-item {padding:15px 0; flex-wrap:wrap}
+    .add-edu-all-item-number {display:none}
+    .add-edu-all-item-title {width:100%}
+    .add-edu-all-item-time {margin:10px 0 0 0; text-align:left}
+    .add-edu-all-item-price {min-width:0; max-width:none; padding:0 0 0 20px; margin:10px 0 0 0; border-left:1px solid #DFDFDF; text-align:left}
+    .add-edu-all-welcome-contacts {display:block}
+    .add-edu-all-welcome-contacts-item {min-width:0; max-width:none; margin:40px 0 0 0; padding:0; border-left:none}
+    .add-edu-all-welcome-btn {display:block}
+}
+
+.add-edu-card {margin:40px 0 0 0}
+.add-edu-card-type {font-weight:normal; font-size:14px; line-height:18px; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91}
+.add-edu-card-header {display:flex; align-items:flex-start; margin:10px 0 0 0}
+.add-edu .add-edu-card-header h2 {margin:0}
+.add-edu-card-header-time {white-space:nowrap; margin:0 0 0 20px; padding:0 0 0 20px; font-weight:500; font-size:24px; line-height:31px; color:#44AADC; border-left:1px solid #D0D0D0}
+.add-edu-card-detail {margin:40px 0; display:flex}
+.add-edu-card-info {min-width:312px; max-width:312px}
+.add-edu-card-info-preview img {display:block; width:100%}
+.add-edu-card-info-author {margin:30px 0 0 0; text-align:center}
+.add-edu-card-info-price {margin:30px 0 0 0; text-align:center}
+.add-edu-card-info-price strong {font-weight:500}
+.add-edu-card-info-program {margin:30px 0 0 0; text-align:center}
+.add-edu-card-info-program a {text-decoration:none; border-bottom:1px solid #002b5d}
+.add-edu-card-info-program a:hover {border-bottom-color:#8a1f1b}
+.add-edu-card-info-btn {margin:30px 0 0 0}
+.add-edu-card-info-btn a {display:flex; align-items:center; justify-content:center; padding:0; width:auto}
+.add-edu-card-info-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+.add-edu-card-descr {margin:0 0 0 40px; padding:0 0 0 40px; border-left:1px solid #EFEFEF}
+.add-edu-card-descr p {margin:20px 0; padding:0}
+.add-edu-card-descr *:first-child {margin-top:0}
+.add-edu-card-descr *:last-child {margin-bottom:0}
+.add-edu-card-descr strong {font-weight:500}
+.add-edu-card-descr-more {display:none}
+.add-edu-card-bottom {margin:40px 0 0 0; display:flex; flex-direction:row-reverse}
+.add-edu-card-sert {min-width:390px; max-width:390px; margin:0 0 0 20px}
+.add-edu-card-sert img {display:block; width:100%}
+.add-edu-card-contacts {width:100%; background:#E9EFF1; padding:20px; display:flex; flex-direction:column}
+.add-edu-card-contacts-title {font-weight:500}
+.add-edu-card-contacts-text {margin:20px 0 0 0; flex-grow:1}
+.add-edu-card-contacts-text a {color:#000000; text-decoration:none}
+.add-edu-card-contacts-text a:hover {color:#8A1F1B}
+.add-edu-card-contacts-item {display:flex; margin:10px 0 0 0}
+.add-edu-card-contacts-item-title {min-width:65px}
+.add-edu-card-contacts-item-value p {margin:10px 0 0 0}
+.add-edu-card-contacts-item-value p:first-child {margin:0}
+.add-edu-card-contacts-btn {margin:20px 0 0 0}
+.add-edu-card-contacts-btn a {display:flex; align-items:center; justify-content:center; padding:0; width:auto}
+.add-edu-card-contacts-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+
+@media screen and (max-width:1169px) {
+    .add-edu-card-header {display:block}
+    .add-edu-card-header-time {margin:10px 0 0 0; padding:0; border-left:none}
+    .add-edu-card-detail {margin:20px 0 40px 0; display:block}
+    .add-edu-card-info {min-width:0; max-width:none}
+    .add-edu-card-descr {margin:20px 0 0 0; padding:0; border-left:none; max-height:138px; overflow:hidden; position:relative}
+    .add-edu-card-descr.open {max-height:none}
+    .add-edu-card-descr::after {content:""; position:absolute; left:0; bottom:0; right:0; height:30px; background:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%)}
+    .add-edu-card-descr.open::after {display:none}
+    .add-edu-card-descr-more {display:block; margin:5px 0 0 0}
+    .add-edu-card-descr-more a {text-decoration:none; border-bottom:1px dashed #002b5d}
+    .add-edu-card-descr-more a:hover {border-bottom-color:#8a1f1b}
+    .add-edu-card-descr-more a span+span {display:none}
+    .add-edu-card-descr.open+.add-edu-card-descr-more a span {display:none}
+    .add-edu-card-descr.open+.add-edu-card-descr-more a span+span {display:inline}
+    .add-edu-card-bottom {display:block}
+    .add-edu-card-sert {min-width:0; max-width:none; margin:0}
+    .add-edu-card-contacts {width:auto; margin:20px 0 0 0}
+    .add-edu-card-contacts-btn {margin:60px 0 0 0}
+}
+
+.add-edu-sections {margin:40px 0 0 0}
+.add-edu-sections-header {display:flex; align-items:center; justify-content:space-between}
+.add-edu .add-edu-sections-header h2 {margin:0}
+.add-edu-sections-header-btn a {display:flex; align-items:center; justify-content:center; padding:0 33px}
+.add-edu-sections-header-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+
+@media screen and (max-width:1169px) {
+    .add-edu-sections-header {display:block}
+    .add-edu-sections-header-btn {margin:20px 0 0 0}
+    .add-edu-sections-header-btn a {justify-content:space-between; padding:0 20px}
+}
+
+.add-edu-sections-groups {margin:20px 0 0 0; border-top:1px solid #EFEFEF}
+.add-edu-sections-group {border-bottom:1px solid #EFEFEF}
+.add-edu-sections-group-header {display:flex; align-items:center; padding:20px 0; cursor:pointer}
+.add-edu-sections-group-header-arrow {min-width:32px; max-width:32px; height:32px; background:#F2F5F5; display:flex; align-items:center; justify-content:center; border-radius:50%; margin:0 20px 0 0}
+.add-edu-sections-group-header:hover .add-edu-sections-group-header-arrow {background:#002B5D}
+.add-edu-sections-group.open .add-edu-sections-group-header-arrow {background:#002B5D}
+.add-edu-sections-group-header-arrow svg {width:24px; height:24px; fill:#002B5D}
+.add-edu-sections-group-header:hover .add-edu-sections-group-header-arrow svg {fill:#FFFFFF}
+.add-edu-sections-group.open .add-edu-sections-group-header-arrow svg {fill:#FFFFFF; transform:rotate(-180deg)}
+.add-edu-sections-group-header-title {width:100%; font-weight:500; font-size:18px; line-height:23px; color:#002B5D}
+.add-edu-sections-group-header-count {margin:0 0 0 20px; white-space:nowrap; color:#8C8C91}
+.add-edu-sections-group-container {display:none; padding:20px 0}
+.add-edu-sections-group.open .add-edu-sections-group-container {display:block}
+.add-edu-sections-group-item {margin:20px 0 0 0; padding:20px 0 0 0; border-top:1px solid #EFEFEF; display:flex}
+.add-edu-sections-group-item:first-child {margin:0; padding:0; border-top:none}
+.add-edu-sections-group-item-preview {min-width:240px; max-width:240px; margin:0 40px 0 0}
+.add-edu-sections-group-item-preview img {display:block; width:100%}
+.add-edu-sections-group-item-content {width:100%}
+.add-edu-sections-group-item-title {font-weight:500; font-size:20px; line-height:30px; color:#002B5D}
+.add-edu-sections-group-item-title a {text-decoration:none; border-bottom:1px solid #002b5d}
+.add-edu-sections-group-item-title a:hover {border-bottom-color:#8a1f1b}
+.add-edu-sections-group-item-text {margin:15px 0 0 0}
+.add-edu-sections-group-item-text *:first-child {margin-top:0}
+.add-edu-sections-group-item-text *:last-child {margin-bottom:0}
+
+@media screen and (max-width:1169px) {
+    .add-edu-sections-groups {margin:40px 0 0 0}
+    .add-edu-sections-group-header-arrow {margin:0 15px 0 0}
+    .add-edu-sections-group-header-count {margin:0 0 0 15px}
+    .add-edu-sections-group-container {padding:0 0 20px 0}
+    .add-edu-sections-group-item {display:block}
+    .add-edu-sections-group-item-preview {min-width:0; max-width:none; margin:0}
+    .add-edu-sections-group-item-content {width:auto; margin:40px 0 0 0}
+}
+
+.add-edu-sections-all {margin:20px 0 0 0; display:flex}
+.add-edu-sections-all a {display:flex; height:50px; border:1px solid #44AADC; padding:0 20px; align-items:center; justify-content:center; font-weight:500; font-size:14px; line-height:21px; text-transform:uppercase; color:#44AADC; text-decoration:none}
+.add-edu-sections-all a:hover {border-color:#002b5d; color:#002b5d}
+.add-edu-sections-all a svg {width:20px; height:20px; margin:0 0 0 10px; fill:#44AADC}
+.add-edu-sections-all a:hover svg {fill:#002b5d}
+
+@media screen and (max-width:1169px) {
+    .add-edu-sections-all {margin:40px 0 0 0; display:block}
+}
+
+.add-edu-learning {margin:80px 0 0 0}
+.add-edu-learning-title {font-weight:500; font-size:24px; line-height:31px; color:#000000}
+.add-edu-learning-text {margin:30px 0 0 0}
+.add-edu-learning-prefs {margin:30px 0 0 0}
+.add-edu-learning-pref {margin:10px 0 0 0; padding:4px 20px 4px 88px; display:flex; align-items:center; min-height:78px; background:#FBFBFB; border:1p solid #EFEFEF; font-weight:normal; position:relative}
+.add-edu-learning-pref::before {content:""; position:absolute; left:20px; top:15px; width:48px; height:48px; background:url(../images/add-edu-prefs.svg) no-repeat; background-size:100%}
+
+.add-edu-block {margin:80px 0 0 0}
+.add-edu-block-title {font-weight:500; font-size:24px; line-height:31px}
+
+.add-edu-who-text {margin:20px 0 0 0; font-weight:500; max-width:800px}
+.add-edu-who-list {display:flex; flex-wrap:wrap; margin:10px -5px 0 -5px}
+.add-edu-who-item {min-width:calc(25% - 10px); max-width:calc(25% - 10px); margin:10px 5px 0 5px; padding:15px 20px; background:#E9EFF1}
+.add-edu-who-item-icon {width:48px}
+.add-edu-who-item-icon img {display:block; width:100%}
+.add-edu-who-item-text {margin:10px 0 0 0; font-weight:normal}
+
+@media screen and (max-width:1169px) {
+    .add-edu-who-list {display:block; margin:20px 0 0 0}
+    .add-edu-who-item {min-width:0; max-width:none; margin:10px 0 0 0}
+}
+
+.add-edu-discount {margin:20px 0 0 0; padding:30px; background:#003558; color:#FFFFFF}
+.add-edu-discount-icon {width:36px}
+.add-edu-discount-icon img {display:block; width:100%}
+.add-edu-discount-text {margin:20px 0 0 0; font-size:24px; line-height:36px}
+
+.add-edu-docs-text {margin:20px 0 0 0}
+.add-edu-docs-previews {margin:0 0 0 -20px; display:flex; flex-wrap:wrap}
+.add-edu-docs-preview {min-width:234px; max-width:234px; margin:20px 0 0 20px}
+.add-edu-docs-preview img {display:block; width:100%}
+
+@media screen and (max-width:1169px) {
+    .add-edu-docs-previews {margin:20px 0 0 0; display:block}
+    .add-edu-docs-preview {min-width:0; max-width:none; margin:20px 0 0 0}
+}
+
+.add-edu-requirements-formats {margin:15px 0 0 0; padding:15px 0 0 0; border-top:1px solid #EFEFEF}
+.add-edu-requirements-formats-before {color:#727272}
+.add-edu-requirements-formats-list {margin:0 0 0 -5px; display:flex; flex-wrap:wrap}
+.add-edu-requirements-formats-list span {padding:4px 10px; margin:5px 0 0 5px; background:#F2F5F5; border-radius:4px; color:#727272; text-transform:uppercase}
+.add-edu-requirements-formats-after {margin:20px 0 0 0; color:#727272}
+
+.add-edu-feedback {display:flex; align-items:center; margin:30px 0 0 0}
+.add-edu-feedback-btn {white-space:nowrap; margin:0 40px 0 0}
+.add-edu-feedback-btn a {display:flex; align-items:center; justify-content:center; padding:0 20px}
+.add-edu-feedback-btn a img {min-width:20px; max-width:20px; margin:0 0 0 10px}
+
+@media screen and (max-width:1169px) {
+    .add-edu-feedback {display:block}
+    .add-edu-feedback-btn {margin:0}
+    .add-edu-feedback-btn a {justify-content:space-between}
+    .add-edu-feedback-text {margin:20px 0 0 0}
+}
